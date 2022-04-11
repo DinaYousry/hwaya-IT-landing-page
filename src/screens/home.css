@@ -1,0 +1,343 @@
+/* Header ==================================================================== */
+a.nav-link.active {
+  background-color: var(--primary-color) !important;
+  border-color: var(--primary-color) !important;
+  color: var(--secondary-color) !important;
+}
+
+a.nav-link {
+  color: var(--primary-color) !important;
+  background-color: var(--secondary-color) !important;
+}
+
+a.nav-link:hover {
+  border-color: var(--primary-color) !important;
+}
+.nav-tabs {
+  border-color: var(--primary-color) !important;
+}
+
+.my-search-bar {
+  border-color: var(--secondary-color) !important;
+  width: 82% !important;
+  /* margin-left: 8% !important;  */
+  margin-right: 10px !important;
+}
+/* .me-auto {
+  margin-bottom: -3% !important;
+  margin-left: 5% !important;
+} */
+
+button.navbar-toggler {
+  background-color: var(--secondary-color);
+  border-color: var(--primary-color) !important;
+  color: var(--primary-color) !important;
+}
+.quoteimg {
+  width: 100% !important;
+  margin-top: 20% !important;
+}
+.cen {
+  align-items: center;
+  width: 90%;
+  margin-left: 5%;
+}
+.whatsapp {
+  display: inline-block;
+  font-family: sans-serif;
+  text-decoration: none;
+  /* margin: 1em auto; */
+  margin-left: 18%;
+  color: #fff;
+  font-size: 18px;
+  padding: 1em 2em 1em 3.5em;
+  border-radius: 1em;
+  font-weight: bold;
+  background: #3dad67
+    url("https://tochat.be/click-to-chat-directory/css/whatsapp.svg") no-repeat
+    1.5em center;
+  background-size: 1.6em;
+}
+a.whatsapp:hover {
+  color: white !important;
+  font-weight: 750 !important;
+}
+.call {
+  /* display: inline-block; */
+  font-family: sans-serif;
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  /* border-radius: 1em; */
+  /* padding-top: 4px; */
+  margin-left: 5%;
+  /* background: #fff no-repeat 1.5em center; */
+  /* background-size: 1.6em; */
+
+  /* text-decoration-line: underline; */
+}
+a.call:hover {
+  color: black !important;
+  font-weight: 600 !important;
+}
+.price {
+  width: 90%;
+  margin-left: 5%;
+  text-align: center;
+  overflow-x: scroll;
+}
+::-webkit-scrollbar {
+  width: 15px;
+}
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px transparent;
+  border-radius: 2px;
+}
+::-webkit-scrollbar-thumb {
+  background: #5994ff;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #537dca;
+}
+
+.row {
+  margin: 0px !important;
+  width: 100% !important;
+}
+.theady {
+  text-align: left;
+  padding-left: 5% !important;
+  color: #fff;
+  background-color: #5994ff !important;
+}
+.check {
+  font-size: 20px;
+}
+.feature {
+  font-weight: 600;
+  font-size: 18px;
+  text-align: left;
+}
+.quote {
+  border-color: rgb(206, 202, 202) !important;
+  border: 2px;
+  border-style: solid;
+}
+.text {
+  font-size: 35px;
+  font-weight: 700;
+}
+.btn-block {
+  background-color: transparent;
+  font-size: 30px;
+  border-color: transparent;
+  padding-top: 10px;
+  width: 85%;
+}
+.ex1 {
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 8px black;
+  border-radius: 10px;
+  background-color: #1a306f;
+  color: white;
+  border-color: #1a306f;
+}
+.ex2 {
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 8px;
+  border-radius: 10px;
+  border-color: black;
+}
+.fontsize1 {
+  font-size: 25px !important;
+}
+.lin {
+  text-decoration: none;
+  color: black;
+  font-size: 25px;
+}
+.lin:hover {
+  text-decoration: underline;
+  text-decoration-line: underline;
+  text-decoration-thickness: 5px;
+  text-decoration-color: yellow;
+  font-weight: 700;
+  color: black;
+}
+.slider {
+  height: 4px !important;
+  width: 80%;
+  background-color: #6c757d;
+  margin-left: 10%;
+}
+.btnn {
+  height: 40px;
+  text-align: center;
+  background-color: transparent !important;
+  border-color: transparent !important;
+}
+
+/* Services ==================================================================== */
+@media only screen and (min-width: 750px) {
+  h1 {
+    padding: 3%;
+    color: var(--primary-color);
+    font-weight: bolder !important;
+  }
+  h2 {
+    color: var(--primary-color);
+    font-weight: bolder !important;
+    /* font-size: 100% !important; */
+  }
+  h3 {
+    padding: 3%;
+    color: var(--primary-color);
+    text-align: center;
+  }
+
+  h5 {
+    padding: 3%;
+    color: var(--primary-color);
+    text-align: center;
+  }
+
+  .mycard1 {
+    width: 100% !important;
+    padding-right: 10% !important;
+    padding-left: 5% !important;
+  }
+  .mycard2 {
+    width: 100% !important;
+    padding-right: 10% !important;
+    padding-left: 5% !important;
+  }
+  .mycard {
+    width: 100% !important;
+    padding-right: 10% !important;
+    padding-left: 10% !important;
+  }
+  .mycarddiv1 {
+    /* margin: 3%; */
+    padding-right: 7% !important;
+    padding-left: 50% !important;
+    padding-top: 7% !important;
+  }
+  .mycarddiv2 {
+    /* margin: 3%; */
+    padding-right: 50% !important;
+    padding-left: 7% !important;
+    padding-top: 7% !important;
+  }
+  .mycarddivy {
+    margin-right: auto !important;
+    margin-left: auto !important;
+    width: 40%;
+  }
+  .nav-link {
+    font-weight: bolder;
+    color: white !important;
+  }
+  .hom1 {
+    text-align: right;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .hom2 {
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .text {
+    font-size: 35px;
+    font-weight: 700;
+    color: #1a306f;
+  }
+  .wid {
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+}
+@media only screen and (max-width: 750px) {
+  body {
+    font-family: "Varela Round", sans-serif;
+  }
+  .quoteimg {
+    width: 100% !important;
+  }
+  h1 {
+    padding: 5%;
+    color: var(--primary-color);
+    text-align: center;
+  }
+  h2 {
+    color: var(--primary-color);
+    text-align: center;
+    /* font-size: 100% !important; */
+  }
+  .fontsize100 {
+    font-size: 100% !important;
+  }
+  h3 {
+    padding: 5%;
+    text-align: center;
+    color: var(--primary-color);
+  }
+  h5 {
+    padding: 5%;
+    text-align: center;
+  }
+  .mycard1 {
+    width: 100% !important;
+    padding-right: 5% !important;
+    padding-left: 10% !important;
+    padding-top: 2% !important;
+  }
+  .mycard2 {
+    width: 100% !important;
+    padding-right: 10% !important;
+    padding-left: 5% !important;
+    padding-top: 2% !important;
+  }
+  .mycard {
+    width: 100% !important;
+    padding-right: 10% !important;
+    padding-left: 10% !important;
+  }
+  .mycarddiv1 {
+    margin: 3%;
+  }
+  .mycarddiv2 {
+    margin: 3%;
+  }
+  .cen {
+    align-items: center;
+    width: 90%;
+    margin-left: 5%;
+  }
+  .par {
+    font-size: 16px;
+    font-weight: 700;
+  }
+  .hom1 {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .hom2 {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .text {
+    font-size: 30px;
+    font-weight: 600;
+    color: #1a306f;
+  }
+  .wid {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+}
